@@ -137,6 +137,12 @@
 
 #movies {
     display: flex;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 0rem;
+    margin-top: 0rem;
+    justify-content:center;
+    align-items: center;
 }
 
 #movies-container {
@@ -149,21 +155,80 @@
 }
 
 
-#movies .box {
-    border: 2px solid red;
-    margin: 10px;
-}
-
 #box1, #box2, #box3, #box4 {
     margin-bottom: auto;
     align-items: center;
+}
+
+#movies .box {
+    border: 2px solid red;
+    margin: 10px;
+    padding-bottom: 1rem;
+}
+#movies #box1 {
+    width: 300px;
+}
+#movies #box2 {
+    width: 300px;
+}
+#movies #box3 {
+    width: 300px;
+}
+#movies #box4 {
+    width: 300px;
 }
 
 #movies-container #movies .box #button1{
     color: red;
 }
 
-
-
-
+#box1 img {
+    height: 419px;
+    width: 300px;
+}
+#box2 img {
     
+    height: 400px;
+    width: 300px;
+}
+#box3 img {
+    height: 400px;
+    width: 300px;
+}
+#box4 img {
+    height: 400px;
+    width:300px;
+}
+
+/* #movies{
+    align-items: center;
+    margin: left 100rem;
+} */
+
+#movies-container {
+    margin-top:15rem;
+}
+
+.box .button{
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 5px;
+    color: red;
+    border-radius: 0.5rem;
+}
+
+.box #lagertha{
+    justify-content: center;
+    margin-left: 5.5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.box .button:hover{
+    color: white;
+    background-color: rgb(243, 66, 66);
+    cursor: pointer;
+}
